@@ -1,0 +1,135 @@
+.custom {
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+
+.custom2 {
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+}
+
+.custom3 {
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.custom4 {
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.custom5 {
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+.filter-gray {
+    filter: invert(39%) sepia(21%) saturate(200%) saturate(109.5%) hue-rotate(174deg) brightness(94%) contrast(86%);
+}
+
+.filter-near-black {
+    filter: invert(8%) sepia(10%) saturate(200%) saturate(200%) saturate(166%) hue-rotate(177deg) brightness(104%) contrast(91%);
+}
+
+.v1 {
+    background-image: url(static/utilities.png);
+}
+
+.v2 {
+    background-image: url(static/utilities2.png);
+}
+
+.v3 {
+    background-image: url(static/utilities3.png);
+}
+
+.v4 {
+    background-image: url(static/utilities4.png);
+}
+
+.v5 {
+    background-image: url(static/utilities5.png);
+}
+
+.v6 {
+    background-image: url(static/utilities6.png);
+}
+
+.v7 {
+    background-image: url(static/utilities7.png);
+}
+
+.live {
+    background-position: 0 -82px;
+}
+
+.pic {
+    background-position: 0 -332px;
+}
+
+.emoji {
+    background-position: 0 -232px;
+}
+
+.video {
+    background-position: 0 -219px;
+}
+
+.like {
+    background-position: -19px -190px;
+}
+
+.comment {
+    background-position: -42px -169px;
+}
+
+.share {
+    background-position: -38px -190px;
+}
+
+.smile {
+    background-position: -34px -226px;
+}
+
+.camera {
+    background-position: -51px -209px;
+}
+
+.gif {
+    background-position: -51px -226px;
+}
+
+.sticker {
+    background-position: -51px -243px;
+}
+
+.reply {
+    background-position: -51px -260px;
+}
+
+.search {
+    background-position: 0 -861px;
+}
+
+.write {
+    background-position: 0 -356px;
+}
+
+.global {
+    background-position: 0 -297px;
+}

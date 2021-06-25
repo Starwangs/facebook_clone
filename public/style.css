@@ -1,0 +1,41 @@
+/* Works on Firefox */
+.overflow-hover, .overflow-hover-dark {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  transition: 0.7s;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.overflow-hover::-webkit-scrollbar {
+  width: 12px;
+}
+
+.overflow-hover::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.overflow-hover::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+
+/* Works on Firefox */
+.overflow-hover:hover {
+  overflow-y: auto;
+  scrollbar-color: rgba(209, 213, 219, 1) transparent;
+}
+
+.overflow-hover-dark:hover {
+  overflow-y: auto;
+  scrollbar-color: rgb(75, 75, 75) transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+.overflow-hover::-webkit-scrollbar-thumb:hover {
+  border: 3px solid rgba(209, 213, 219, 1);
+}
+
+.overflow-hover-dark::-webkit-scrollbar-thumb:hover {
+  border: 3px solid rgba(107, 114, 128, 1);
+}
